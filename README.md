@@ -13,6 +13,7 @@
 4. 付款后订单号会填入Order框中,可用于主动查询付款结果.
 
 ![整体界面](https://cdn.sauyoo.com/2020/02/24/1582532560.png)
-###依赖:
+
+### 依赖:
 1. [HandyControl](https://github.com/HandyOrg/HandyControl "HandyControl")
 2. [Alipay SDK for .NET](https://github.com/alipay/alipay-sdk-net-all "Alipay SDK for .NET")
