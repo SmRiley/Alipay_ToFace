@@ -1,0 +1,134 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Alipay/1.0.0": {
+        "dependencies": {
+          "AlipaySDKNet": "4.2.30",
+          "HandyControl": "2.3.0",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Drawing.Common": "4.7.0",
+          "ThoughtWorks.QRCode": "1.1.0"
+        },
+        "runtime": {
+          "Alipay.dll": {}
+        }
+      },
+      "AlipaySDKNet/4.2.30": {
+        "runtime": {
+          "lib/net35/AlipaySDKNet.dll": {
+            "assemblyVersion": "1.0.7351.36902",
+            "fileVersion": "1.0.7351.36902"
+          }
+        }
+      },
+      "HandyControl/2.3.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/HandyControl.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.0/en/HandyControl.resources.dll": {
+            "locale": "en"
+          },
+          "lib/netcoreapp3.0/fa/HandyControl.resources.dll": {
+            "locale": "fa"
+          },
+          "lib/netcoreapp3.0/fr/HandyControl.resources.dll": {
+            "locale": "fr"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        }
+      },
+      "ThoughtWorks.QRCode/1.1.0": {
+        "runtime": {
+          "lib/ThoughtWorks.QRCode.dll": {
+            "assemblyVersion": "1.0.4778.30637",
+            "fileVersion": "1.0.4778.30637"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Alipay/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AlipaySDKNet/4.2.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vznCGzwHcx2LLxdhhwLdu1qEOCyl4DmE0lRzmVOAlpBk/Dx8oZhyerBbNyIcK1OYX2RxmzvOvgTt3fOMtmq/fQ==",
+      "path": "alipaysdknet/4.2.30",
+      "hashPath": "alipaysdknet.4.2.30.nupkg.sha512"
+    },
+    "HandyControl/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vX52nnBQwU/aV2YwJDR6TJYbTnH9cNe3RxO6rR1Y0/QFpHXjtcHpRvGFjGAb/xWR7UF1fDS2QHTBZlQMbazJeA==",
+      "path": "handycontrol/2.3.0",
+      "hashPath": "handycontrol.2.3.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "path": "system.drawing.common/4.7.0",
+      "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
+    },
+    "ThoughtWorks.QRCode/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IbnrVmKfDp/EWFWfT54b4SMwhgzC2IJLy2p9XgPzzzPB1cUwq7bpkeCbI1SQX4YsHleTWRhwYw/UEmiFczd96Q==",
+      "path": "thoughtworks.qrcode/1.1.0",
+      "hashPath": "thoughtworks.qrcode.1.1.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AlipaySDKNet/4.2.30": {
+        "type": "package",
+        "compile": {
+          "lib/net35/AlipaySDKNet.dll": {}
+        },
+        "runtime": {
+          "lib/net35/AlipaySDKNet.dll": {}
+        }
+      },
+      "HandyControl/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/HandyControl.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/HandyControl.dll": {}
+        },
+        "resource": {
+          "lib/netcoreapp3.0/en/HandyControl.resources.dll": {
+            "locale": "en"
+          },
+          "lib/netcoreapp3.0/fa/HandyControl.resources.dll": {
+            "locale": "fa"
+          },
+          "lib/netcoreapp3.0/fr/HandyControl.resources.dll": {
+            "locale": "fr"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        },
+        "compile": {
+          "ref/netcoreapp3.0/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "ThoughtWorks.QRCode/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/ThoughtWorks.QRCode.dll": {}
+        },
+        "runtime": {
+          "lib/ThoughtWorks.QRCode.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AlipaySDKNet/4.2.30": {
+      "sha512": "vznCGzwHcx2LLxdhhwLdu1qEOCyl4DmE0lRzmVOAlpBk/Dx8oZhyerBbNyIcK1OYX2RxmzvOvgTt3fOMtmq/fQ==",
+      "type": "package",
+      "path": "alipaysdknet/4.2.30",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "alipaysdknet.4.2.30.nupkg.sha512",
+        "alipaysdknet.nuspec",
+        "lib/net35/AlipaySDKNet.dll"
+      ]
+    },
+    "HandyControl/2.3.0": {
+      "sha512": "vX52nnBQwU/aV2YwJDR6TJYbTnH9cNe3RxO6rR1Y0/QFpHXjtcHpRvGFjGAb/xWR7UF1fDS2QHTBZlQMbazJeA==",
+      "type": "package",
+      "path": "handycontrol/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "handycontrol.2.3.0.nupkg.sha512",
+        "handycontrol.nuspec",
+        "lib/net40/HandyControl.dll",
+        "lib/net40/HandyControl.pdb",
+        "lib/net40/HandyControl.xml",
+        "lib/net40/Microsoft.Windows.Shell.dll",
+        "lib/net40/Microsoft.Windows.Shell.pdb",
+        "lib/net40/en/HandyControl.resources.dll",
+        "lib/net40/fa/HandyControl.resources.dll",
+        "lib/net40/fr/HandyControl.resources.dll",
+        "lib/net45/HandyControl.dll",
+        "lib/net45/HandyControl.pdb",
+        "lib/net45/HandyControl.xml",
+        "lib/net45/en/HandyControl.resources.dll",
+        "lib/net45/fa/HandyControl.resources.dll",
+        "lib/net45/fr/HandyControl.resources.dll",
+        "lib/net462/HandyControl.dll",
+        "lib/net462/HandyControl.pdb",
+        "lib/net462/HandyControl.xml",
+        "lib/net462/en/HandyControl.resources.dll",
+        "lib/net462/fa/HandyControl.resources.dll",
+        "lib/net462/fr/HandyControl.resources.dll",
+        "lib/net47/HandyControl.dll",
+        "lib/net47/HandyControl.pdb",
+        "lib/net47/HandyControl.xml",
+        "lib/net47/en/HandyControl.resources.dll",
+        "lib/net47/fa/HandyControl.resources.dll",
+        "lib/net47/fr/HandyControl.resources.dll",
+        "lib/net48/HandyControl.dll",
+        "lib/net48/HandyControl.pdb",
+        "lib/net48/HandyControl.xml",
+        "lib/net48/en/HandyControl.resources.dll",
+        "lib/net48/fa/HandyControl.resources.dll",
+        "lib/net48/fr/HandyControl.resources.dll",
+        "lib/netcoreapp3.0/HandyControl.deps.json",
+        "lib/netcoreapp3.0/HandyControl.dll",
+        "lib/netcoreapp3.0/HandyControl.pdb",
+        "lib/netcoreapp3.0/HandyControl.xml",
+        "lib/netcoreapp3.0/en/HandyControl.resources.dll",
+        "lib/netcoreapp3.0/fa/HandyControl.resources.dll",
+        "lib/netcoreapp3.0/fr/HandyControl.resources.dll"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "sha512": "mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Win32.SystemEvents.dll",
+        "lib/net461/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "ref/net461/Microsoft.Win32.SystemEvents.dll",
+        "ref/net461/Microsoft.Win32.SystemEvents.xml",
+        "ref/net472/Microsoft.Win32.SystemEvents.dll",
+        "ref/net472/Microsoft.Win32.SystemEvents.xml",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "System.Drawing.Common/4.7.0": {
+      "sha512": "v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "type": "package",
+      "path": "system.drawing.common/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.xml",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "system.drawing.common.4.7.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "ThoughtWorks.QRCode/1.1.0": {
+      "sha512": "IbnrVmKfDp/EWFWfT54b4SMwhgzC2IJLy2p9XgPzzzPB1cUwq7bpkeCbI1SQX4YsHleTWRhwYw/UEmiFczd96Q==",
+      "type": "package",
+      "path": "thoughtworks.qrcode/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/ThoughtWorks.QRCode.dll",
+        "thoughtworks.qrcode.1.1.0.nupkg.sha512",
+        "thoughtworks.qrcode.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AlipaySDKNet >= 4.2.30",
+      "HandyControl >= 2.3.0",
+      "Newtonsoft.Json >= 12.0.3",
+      "System.Drawing.Common >= 4.7.0",
+      "ThoughtWorks.QRCode >= 1.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\SmRiley\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\SmRiley\\OneDrive\\source\\repos\\Alipay\\Alipay\\Alipay.csproj",
+      "projectName": "Alipay",
+      "projectPath": "C:\\Users\\SmRiley\\OneDrive\\source\\repos\\Alipay\\Alipay\\Alipay.csproj",
+      "packagesPath": "C:\\Users\\SmRiley\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SmRiley\\OneDrive\\source\\repos\\Alipay\\Alipay\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\SmRiley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.cdn.azure.cn/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "AlipaySDKNet": {
+            "target": "Package",
+            "version": "[4.2.30, )"
+          },
+          "HandyControl": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[4.7.0, )"
+          },
+          "ThoughtWorks.QRCode": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“AlipaySDKNet 4.2.30”。此包可能与项目不完全兼容。",
+      "libraryId": "AlipaySDKNet",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“ThoughtWorks.QRCode 1.1.0”。此包可能与项目不完全兼容。",
+      "libraryId": "ThoughtWorks.QRCode",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

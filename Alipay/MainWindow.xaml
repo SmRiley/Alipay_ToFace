@@ -1,0 +1,59 @@
+﻿<Window x:Class="Alipay.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:controls="https://handyorg.github.io/handycontrol"
+        xmlns:local="clr-namespace:Alipay"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="452" Width="452" WindowStyle="None" AllowsTransparency="True" Icon="alipay_logo.png" >
+    <Border BorderThickness="1,1,1,1" BorderBrush="#FFA29C9C">
+        <Grid Background="#FFF1F1F1">
+            <StackPanel Orientation="Horizontal"  Height="30"  FlowDirection="LeftToRight" VerticalAlignment="Top"  MouseMove="Draw_Form" Background="White">
+                <Label Content="支付宝当面付Demo" Background="{x:Null}" BorderBrush="{x:Null}"/>
+                <Button Content="-"  BorderBrush="{x:Null}" Width="35" Margin="250,0,0,0" FontSize="18" FontFamily="KaiTi" Click="Minimize_Form"/>
+                <Button Content="×" BorderBrush="{x:Null}" Width="35" FontSize="18" FontFamily="KaiTi" Click="Close_Form"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left" Height="400" Margin="0,35,0,0" VerticalAlignment="Top" Width="450">
+                <Expander Name="Expander_Setting" Header="设置支付宝API">
+                    <StackPanel Height="250" Background="White">
+                        <TextBox Text="2019041663910127" Name="APPID_Text" Margin="5,5,5,5" Style="{StaticResource TextBoxExtend}" controls:InfoElement.Placeholder="APPID"/>
+                        <TextBox Text="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlX6+AzwosPlhlMiO6FfQotaxO6eNvK6w2Ge6HPqCqzCBdVALc/nF3RdCKUDNlCTIL4G+nLBqj81eE4hsYtCDD1KiAqdc0PdFUfbJViVChcnIhXzTpjIC+yQJJMPvW8DoLD8thDoWUJ75wnphLiCvBcHuMeAxJy2sl7uucQeK/jeK+uR+cODQ7sU4zpcnjnuP7LBCocE/uZWUiJtyo1DXCcc0+1SIuYCxin7FDTBtV5Ce+126DypNmiR85+OyVcMLZ+B4S28PzCSeCh574OahY5UjoOEKKBs+8xzz3VDMLChDvA8ydJ3mrIWyJivXPlka0Yy5qPCRzQX321H5brRf0wIDAQAB" Name="Public_Key_Text" Margin="5,5,5,5" Height="80" Style="{StaticResource TextBoxExtend}" controls:InfoElement.Placeholder="支付宝公匙" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+                        <TextBox Text="MIIEpQIBAAKCAQEAzGUYs/nPTgsd0LD/8ohlDL9TnhsF4XFhX7xvRgWZ8yMhHqIaRqQuDi/llpDEsc3os1DLZS9aNpG8hp9jYwxs3od0dZb62YEqDKJlg5KhcQkEzquEf7jFD1g0YF7BPinHdamH4YhNh1XVBSW0xfiTEh0FL0Vvys0TNUAkhdxCdZFQcfSRHxXpYXhtuv0fWyyY4bGexZmZOg+gy+NOrJIhCM0Sh/1fnzeU98nhB/S6iFnu3b1hnX6Ngl9rteCeNmWY7n5wxOmC2w6Qs9iIWKKaezaRO0uODWQbnL4vWHbhyhyFMcyBnwqIvnj1m3QNna1lHpTrNWkb0ArlgMsEqI6R5QIDAQABAoIBAF5JZJPhcRf3WNGkVO10reirec89eAD/ZIPdURdkDhhy5BxVevmLUxOIVMiYD6RV8DqH0svihCMYJ3eSny5Z1P7yTW7RLvaW9ubNIzcGtSKHnogX5w9kFMN3VPH/w/UBINnOUrhfQCRmG9Y8BqAsguugJ3we8+sBnxK5fB+j86R3iKd7fCwuvbhrE6/BwsyPYrp4oAIN09WLY5f7QfrnKLSvS7nwu4l1c7vtWNr7jPy7e5XPcYL7JIo7PUvb0TxYxDRjpOSRLm5kL4WlQwjNVmehK/OJhLYzaFu4jKLvO7kgA4kBMNh8qMzjf9aoxBV4CIw1SxWFqBNdnwYyuaCTEgECgYEA9a+OqGzFlIYRBRHkRIrktoSUBNHXuf9E0kAb3aVGemMnis/OVaYHg9Om6MPMHKmgF4p2mbjvzW5Crq1umCGdr1QaZicKXVwZngXRj7Rsko9y/SO1FlpQ4eoJ968T19HnrtilBPmNFN1In7ZymRbyMSFrXuwEGUGpMYtYljXvaPECgYEA1PnG0WVVVA0e0lC24ISpTexuVGzmVeLvt417fDi89D9sN121mPW5eR1aaR949bri0qPdYPiR8DK73sbLD/hhNbPLrVVEiDNmxgWUAYg66kZ5pAog3S47AKp/2Wbl/0NehwNIu6IOaUx0/JdeCU3tjYJLj5UOlyzZ/nGJdyibWDUCgYEAxUcCthshS/GbGQcU1DTzEdvDP1uAbcmb6Xew6Hkd7ohP6BaVCBEZV7FMBPuzmhBajIySTz1A0SQIR1rbwyy7AV33FK+kkvKxX0Is08d8pvKo0rspXZmH+N+EwW3D8TiLYMp1N1lq/6Xv+s71lhfmwaykGsRJRj6DLVVG/NayNwECgYEAtct4QOmkyphghNpNIJ1c/50gGITUoN+UDDSDAehUspEoyKH/D1BBP/ckY7NvxyH92Bv0LoA/4q8L2wAJ+dnk8LhG1fCBDVoDEmlUi3JECBKcZsAWiXaa+tiPRX4mOZzCJbFR9ohAkPWorqxuoraYXkCoSynLSJQKiL1VwBczczkCgYEAx+Etg+mvyskVwhnUwBjSpvAvd4Vk04LmBTSA2d/ETvnqmRdvGg/Oj27my3yV565Hwn2ve4uwwl9eQexftu3rtbSivZv7VHo0N3SIqeiU7AeLw3cPOMs/xsXUJdzPPLmIE0t93ose9Ie7YKBRG8pDrQgLSKAx5/O4xG4pu/thwEE=" Name="Private_Key_Text" Margin="5,5,5,5" Height="80" Style="{StaticResource TextBoxExtend}" controls:InfoElement.Placeholder="RSA2(SHA256)私匙" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+                        <Button Content="保存" Click="Setting_Alipay"/>
+                    </StackPanel>
+                </Expander>
+                <Expander Name="Expander_Request" Header="生成支付二维码">
+                    <StackPanel Background="White">
+                        <TextBox Name="Price" Margin="5" Style="{StaticResource TextBoxExtend}" controls:InfoElement.Placeholder="购买金额"/>
+                        <TextBox Name="Operation" Margin="5" Style="{StaticResource TextBoxExtend}" controls:InfoElement.Placeholder="购买说明"/>
+                        <DockPanel>
+                            <Label Content="有效期:" Style="{DynamicResource LabelPrimary}"/>
+                            <controls:PreviewSlider Name="QrTime_Setting" Value="30" Maximum="100" Height="20">
+                                <controls:PreviewSlider.PreviewContent>
+                                    <Label Style="{StaticResource LabelPrimary}" Content="{Binding Path=(controls:PreviewSlider.PreviewPosition),RelativeSource={RelativeSource Self}}" ContentStringFormat="{}{0:#0.0}"/>
+                                </controls:PreviewSlider.PreviewContent>
+                            </controls:PreviewSlider>
+                        </DockPanel>
+                        <Button Content="生成" Click="Start_Request"/>
+                    </StackPanel>
+                </Expander>
+                <Label Name="Pay_State" Content="状态:等待生成" Margin="10" Style="{DynamicResource LabelInfo}"></Label>
+                <Border Width="250" BorderBrush="#FF787676" BorderThickness="1,1,1,1">
+                    <Image Name="QRImg" Width="250" Height="250">
+                        <Image.OpacityMask>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="White" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Image.OpacityMask>
+                    </Image>
+                </Border>
+                <DockPanel Margin="0,3,0,0">
+                    <TextBox Name="Order_Num" Style="{StaticResource TextBoxExtend}" controls:InfoElement.Placeholder="支付订单号" Width="300" Margin="60,0,0,0"/>
+                    <Button Content="查询订单" Margin="10,0,0,0" Style="{StaticResource ButtonSuccess}" Click="Query_Oder"/>
+                </DockPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>
