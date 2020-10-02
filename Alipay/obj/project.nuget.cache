@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "dgSpecHash": "DBhegi+7ERTl1jg5BYRJi7ZXtNxJBM3R1LLvDgpdZZN6d75FV77vZ0g7MENcTcpIdlkyJzpD0nHXyyURVUPUeg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SmRiley\\OneDrive\\source\\repos\\Alipay\\Alipay\\Alipay.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SmRiley\\.nuget\\packages\\alipaysdknet\\4.2.30\\alipaysdknet.4.2.30.nupkg.sha512",
+    "C:\\Users\\SmRiley\\.nuget\\packages\\handycontrol\\2.3.0\\handycontrol.2.3.0.nupkg.sha512",
+    "C:\\Users\\SmRiley\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\SmRiley\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\SmRiley\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\SmRiley\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\SmRiley\\.nuget\\packages\\thoughtworks.qrcode\\1.1.0\\thoughtworks.qrcode.1.1.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“AlipaySDKNet 4.2.30”。此包可能与项目不完全兼容。",
+      "libraryId": "AlipaySDKNet",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“ThoughtWorks.QRCode 1.1.0”。此包可能与项目不完全兼容。",
+      "libraryId": "ThoughtWorks.QRCode",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

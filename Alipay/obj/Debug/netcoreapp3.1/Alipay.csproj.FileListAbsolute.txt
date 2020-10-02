@@ -50,3 +50,5 @@ C:\Users\SmRiley\OneDrive\source\repos\Alipay\Alipay\obj\Debug\netcoreapp3.1\Ali
 C:\Users\SmRiley\OneDrive\source\repos\Alipay\Alipay\obj\Debug\netcoreapp3.1\Alipay.csproj.CopyComplete
 C:\Users\SmRiley\OneDrive\source\repos\Alipay\Alipay\obj\Debug\netcoreapp3.1\Alipay.dll
 C:\Users\SmRiley\OneDrive\source\repos\Alipay\Alipay\obj\Debug\netcoreapp3.1\Alipay.pdb
+C:\Users\SmRiley\OneDrive\source\repos\Alipay\Alipay\obj\Debug\netcoreapp3.1\Alipay.csproj.CoreCompileInputs.cache
+C:\Users\SmRiley\OneDrive\source\repos\Alipay\Alipay\obj\Debug\netcoreapp3.1\Alipay.genruntimeconfig.cache
